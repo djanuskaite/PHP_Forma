@@ -12,6 +12,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="ProjectId" id="1n66lQzgWlusYVUcREEfjU3r3mN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -37,18 +38,34 @@
       <updated>1610698344217</updated>
       <workItem from="1610698345334" duration="16721000" />
       <workItem from="1610722891076" duration="3057000" />
-      <workItem from="1610739374675" duration="7443000" />
+      <workItem from="1610739374675" duration="7484000" />
     </task>
+    <task id="LOCAL-00001" summary="-">
+      <created>1610746849796</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610746849796</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610742908057">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1610742908057" />
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1610746848602">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1610746848602" />
     <state x="645" y="310" key="Github.ShareDialog" timestamp="1610746783982">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -61,9 +78,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1610723249935" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1610746814481">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1610746856082">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610746814481" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610746856082" />
   </component>
 </project>
