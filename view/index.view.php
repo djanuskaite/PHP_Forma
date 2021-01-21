@@ -15,43 +15,33 @@
     <?php include "view/header.php"?>
 
     <!--    kad duomenis siustu reik name isisdet-->
-    <?php if (isset($_POST['send'])): ?>
-        <?php
-//    Apsirasom salygas: jei neatitiks nurodymu || bus tuscias laukas, issiusim zinute vartotojui
-        if (empty($_POST['name']) || !preg_match('/[A-Z]./', $_POST['name'])) {
-            $validation[] = "The first letter of name has to be capitalized";
-        }
-        if (empty($_POST['lastname']) || !preg_match('/[A-Z]/', $_POST['lastname'])) {
-            $validation[] = "The first letter of last name has to be capitalized";
-        }
-        if (empty($_POST['message']) || !preg_match('/^[A-Za-z0-9]{1,200}$/', $_POST['message'])) {
-            $validation[] = " 200 character limit";
-        }
-        ?>
-    <?php endif ?>
 
-
-
+<?php validate($_POST);?>
     <?php if (isset($_POST['send']) & empty($validation)): ?>
         <section>
-<h2 class="text-center text-info m-4">Data</h2>
-
-                <?php foreach ($_POST as $data => $value): ?>
-                    <?php if ($data != "send"): ?>
-<div class="blokas">
-                        <ul class="list-group">
-                            <a href="#" class="list-group-item list-group-item-action list-group-item-info text-center"
-                            >
-                            <span><?= htmlspecialchars(ucfirst($data)); ?> : </span><?= htmlspecialchars(ucfirst($value)); ?>
-                            </a>
-                        </ul>
-
-                    <?php endif; ?>
-                <?php endforeach ?>
-
-</div>
+            <h2 class="text-center text-info m-4">Data</h2>
+            <?php printData();?>
         </section>
 
+
+            <?php foreach ($_POST
+
+            as $data => $value): ?>
+
+
+            </div>
+
+    <?php if ($data != "send"): ?>
+    <div class="blokas">
+        <ul class="list-group">
+            <a href="#" class="list-group-item list-group-item-action list-group-item-info text-center"
+            >
+                <span><?= htmlspecialchars(ucfirst($data)); ?> : </span><?= htmlspecialchars(ucfirst($value)); ?>
+            </a>
+        </ul>
+
+        <?php endif; ?>
+        <?php endforeach ?>
         <!--    The isset() function checks whether a variable is set, which means that it has to be declared and is not NULL.
         This function returns true if the variable exists and is not NULL, otherwise it returns false.-->
     <?php else: ?>

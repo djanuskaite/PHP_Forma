@@ -1,0 +1,1 @@
+John,Johanson,john@gmail.com,Head Office,msg1,/nAnna,Smith,anna@gmail.com,Marketing,msg2,/nThom,Aldirsen,tom@gmail.com,Accounting,msg3,/nEmi,Huston,emi@gmail.com,Marketing,msg4,/n

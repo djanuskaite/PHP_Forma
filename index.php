@@ -1,6 +1,6 @@
 <?php
-require 'inc/departments.php';
+require_once 'inc/departments.php';
+require 'inc/functions.php';
 require_once 'view/index.view.php';
-require_once 'view/header.php';
 
 
