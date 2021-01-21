@@ -25,16 +25,18 @@ function printData() {
     $messages = file_get_contents('data/zinutes.txt', true);
     $messages = explode('/n',$messages);
 
+    echo "<table class='table table-hover'><tr>";
     foreach ($messages as $message) {
+        echo '<tr>';
         $mess = explode(',',$message);
 
-        echo " <table responsive='md' class='table'><tr><tr><th>Name</th><th>Last Name</th><th>Email</th><th>Department</th><th>Message</th></tr>";
+        echo "<th>Name</th><th>Last Name</th><th>Email</th><th>Department</th><th>Message</th></tr>";
         foreach ($mess as $duom){
             echo "<td>$duom</td>";
         }
-        echo "</tr></table>";
-    }
 
+    }
+    echo "</tr></table>";
 }
 
 ?>
